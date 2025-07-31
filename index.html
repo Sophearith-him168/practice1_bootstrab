@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice1</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      .header,
+      .footer {
+        height: 200px;
+        background-color: #a8aaad;
+      }
+      .box {
+        background-color: #8fbc8f;
+        height: 150px;
+        margin-bottom: 15px;
+      }
+      /* .col-left {
+        width: 24%;
+      } */
+      .col-center {
+        width: 47%;
+      }
+      /* .col-right {
+        width: 24%;
+      } */
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header mx-0 mb-3 mt-5"></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container py-4">
+        <div class="row mx-0">
+          <!-- Left Column -->
+          <div
+            class="col-12 col-md-4 col-lg-3 col-xl-3 col-left bg-secondary-subtle p-3"
+          >
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+
+          <!-- Center Column -->
+          <div
+            class="col-12 col-md-8 col-lg-6 col-xl-6 col-center bg-secondary-subtle p-3 mx-3"
+          >
+            <div class="row">
+              <div class="col-8">
+                <div class="box" style="height: 100px"></div>
+              </div>
+              <div class="col-4">
+                <div class="box" style="height: 100px"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="box" style="height: 250px"></div>
+              </div>
+              <div class="col-6">
+                <div class="box" style="height: 250px"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <div class="box" style="height: 100px"></div>
+              </div>
+              <div class="col-4">
+                <div class="box" style="height: 100px"></div>
+              </div>
+              <div class="col-4">
+                <div class="box" style="height: 100px"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div
+            class="col-12 col-lg-3 col-xl-3 col-right bg-secondary-subtle p-3"
+          >
+            <div class="box mb-3" style="height: 100px"></div>
+            <div class="box" style="height: 365px"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container py-4">
+        <div class="footer mx-0 mb-3"></div>
+      </div>
+    </footer>
+  </body>
+</html>
